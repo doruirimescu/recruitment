@@ -7,7 +7,7 @@ What we'd ask you to do is to take a look at the example and take it a bit furth
 
 We will then talk in person about the code, life, culture and working at Voyantic if we like your style and you liked the little assigment!
 
-When done, please just make a pull request towards us!
+When done, please just make a pull request!
 
 Here's an example on how you could call the Winston resource you need for chip list and chip information:
 curl -X GET https://gikr1vhulg.execute-api.eu-west-1.amazonaws.com/playground/v1/chips/tags -H 'X-API-Key: [guess what goes here]' -H 'Authorization: Bearer [got dʒɒt?]'
