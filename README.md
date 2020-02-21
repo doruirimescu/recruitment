@@ -16,4 +16,4 @@ For detailed chip information you need to combine manufacturerId-chipId, looks l
 
 Hope you like it!
 
-Ah, yes, one more thing, if you do not have received an API key and clientSecret from us, please contact recruitment@voyantic.com
+Ah, yes, one more thing, if you do not have received an API key and licenseHash from us, please contact recruitment@voyantic.com
