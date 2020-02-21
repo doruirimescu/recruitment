@@ -10,7 +10,7 @@ We will then talk in person about the code, life, culture and working at Voyanti
 When done, please just make a pull request towards us!
 
 Here's an example on how you could call the Winston resource you need for chip list and chip information:
-curl -X GET https://gikr1vhulg.execute-api.eu-west-1.amazonaws.com/playground/v1/chips/ -H 'X-API-Key: [guess what goes here]' -H 'Authorization: Bearer [got dʒɒt?]'
+curl -X GET https://gikr1vhulg.execute-api.eu-west-1.amazonaws.com/playground/v1/chips/tags -H 'X-API-Key: [guess what goes here]' -H 'Authorization: Bearer [got dʒɒt?]'
 
 For detailed chip information you need to combine manufacturerId-chipId, looks like 001-001. Same endpoint, just remember to tell it what you want, ...chips/001-001 should work as an example.
 
