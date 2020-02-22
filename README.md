@@ -2,11 +2,11 @@
 Hi! Really nice to hear that you may be interested in joining our development team. We are a leading provider of RFID test & measuremnent solutions when it comes to RFID tag design AND mass production & personalization.
 
 Our stack consists of:
-LabVIEW
-embedded C
-Node.js, Express
-AWS (API gateway, Lambda, DynamoDB, etc.)
-We work close to hardware and design our own test&measurement equipment and accessories.
+- LabVIEW
+- embedded C
+- Node.js, Express
+- AWS (API gateway, Lambda, DynamoDB, etc.)
+- We work close to hardware and design our own test&measurement equipment and accessories.
 
 Here is a very simple LabVIEW example on how to authenticate with Winston (that's what we call our little but continuously smarter and more helpful backend).
 
@@ -19,8 +19,8 @@ When done, please just make a pull request!
 Here's an example on how you could call the Winston resource you need for chip list and chip information:
 `curl -X GET https://gikr1vhulg.execute-api.eu-west-1.amazonaws.com/playground/v1/chips/tags -H 'X-API-Key: [guess what goes here]' -H 'Authorization: Bearer [got dʒɒt?]'`
 
-For detailed chip information you need to combine manufacturerId-chipId, looks like 001-001. Same endpoint, just remember to tell it what you want, ...chips/001-001 should work as an example.
+For detailed chip information you need to combine manufacturer ID (e.g. 001) and tag ID (e.g.190) which will look like `001-190`. Same endpoint, just remember to tell it what you want: `...chips/tags/001-001` should work as an example.
 
 Hope you like it!
 
-Ah, yes, one more thing, if you do not have received an API key and licenseHash from us, please contact `recruiting@voyantic.com` 
+Ah, yes, one more thing, if you do not have received an API key and licenseHash from us, please contact `recruiting@voyantic.com`
