@@ -5,6 +5,7 @@ Our stack consists of:
 - LabVIEW
 - embedded C
 - Node.js, Express
+- (potentially soon) React.js
 - AWS (API gateway, Lambda, DynamoDB, etc.)
 - We work close to hardware and design our own test&measurement equipment and accessories.
 
