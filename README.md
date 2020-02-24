@@ -15,13 +15,11 @@ What we'd ask you to do is to take a look at the example and take it a bit furth
 
 We will then talk in person about the code, life, culture and working at Voyantic if we like your style and you liked the little assigment!
 
-When done, please just make a pull request!
-
 Here's an example on how you could call the Winston resource you need for chip list and chip information:
 `curl -X GET https://gikr1vhulg.execute-api.eu-west-1.amazonaws.com/playground/v1/chips/tags -H 'X-API-Key: [guess what goes here]' -H 'Authorization: Bearer [got dʒɒt?]'`
 
 For detailed chip information you need to combine manufacturer ID (e.g. 001) and tag ID (e.g.190) which will look like `001-190`. Same endpoint, just remember to tell it what you want: `...chips/tags/001-001` should work as an example.
 
-Hope you like it!
+You'll need LabVIEW >= 17. When done, please just make a pull request (or send via email to below address).
 
 Ah, yes, one more thing, if you do not have received an API key and licenseHash from us, please contact `recruiting@voyantic.com`
